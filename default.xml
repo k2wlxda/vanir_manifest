@@ -487,6 +487,6 @@
 
   <project name="k2wl/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="vanir" />
   <project name="k2wl/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" />
-  <project name="k2wlxda/android_frameworks_av"  path="frameworks/av"/>
-  <project name="Quarx2k/proprietary_vendor_lge"  path="vendor/lge"/>
+  <project name="k2wlxda/android_frameworks_av"  path="frameworks/av" remote="github" />
+  <project name="Quarx2k/proprietary_vendor_lge"  path="vendor/lge" remote="github" />
 </manifest>
