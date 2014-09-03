@@ -479,7 +479,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="kk44" />
