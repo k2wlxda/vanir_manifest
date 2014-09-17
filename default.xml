@@ -357,7 +357,9 @@
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="kk44" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
-  <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" />
+  <project path="hardware/samsung_slsi/exynos5420" name="hardware_samsung_slsi_exynos5420" remote="vanir" revision="kk44" />
+
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
@@ -494,4 +496,5 @@
   <project name="k2wl/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" />
   <project name="k2wlxda/android_frameworks_av"  path="frameworks/av" remote="github" />
   <project name="Quarx2k/proprietary_vendor_lge"  path="vendor/lge" remote="github" />
+  <project path="kernel/mt6582" name="kernel/mediatek" remote="aosp" revision="refs/tags/android-4.4.4_r3" />
 </manifest>
